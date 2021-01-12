@@ -10,6 +10,9 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
+    <!-- prism css -->
+    <link rel="stylesheet" href="css/prism.css">
+    <!-- site css -->
     <link rel="stylesheet" href="css/site.css" />
     <title>TacoCat</title>
   </head>
@@ -46,8 +49,8 @@
           <h1 class="display-1">TacoCat</h1>
           <figure>
             <!-- <figcaption>Your code title</figcaption> -->
-            <pre class="prettyprint">
-              <code class="code">
+            <pre data-src="js/site.js" data-download-link>
+              <code class="code language-javascript line-numbers">
                 const formPalindrome = document.querySelector('#formPalindrome');
                 const input = document.querySelector('#input');
                 const btnCheckWord = document.querySelector('#btnCheckWord');
@@ -101,8 +104,9 @@
         </div>
       </div>
     </div>
-    <!-- Code Pretify -->
-    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?skin=sunburst"></script>
+     <!-- prism JS -->
+     <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+     <script src="js/prism.js"></script>
     <!-- Boostrap -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
