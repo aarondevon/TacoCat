@@ -4,5 +4,33 @@
 }
 
 .error {
-  color: red;
+  color: #f2522e;
+}
+
+.navbar-light.bg-light {
+  background-color: #f2522e;
+}
+
+/* .navbar a {
+  color: #fff;
+} */
+
+.jumbotron {
+  background-color: #404756;
+  color: #f4f9ff;
+}
+
+.btn-primary {
+  background-color: #0097cc;
+  color: #f4f9ff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-color: #1261a6;
+  border-color: #1261a6; /*set the color you want here*/
+  color: #f4f9ff;
 }
